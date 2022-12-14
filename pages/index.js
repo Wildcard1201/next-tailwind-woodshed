@@ -13,7 +13,7 @@ export default function Home() {
 
 function Header() {
   return (
-    <header>
+    <header className="h-1/6 bg-green-200">
       <h1>This is the header</h1>
     </header>
   )
@@ -21,7 +21,7 @@ function Header() {
 
 function Main() {
   return (
-    <main>
+    <main className="h-2/3">
       This is the main part
     </main>
   )
@@ -29,7 +29,7 @@ function Main() {
 
 function Footer() {
   return (
-    <footer>
+    <footer className="bg-yellow-400 h-full">
       This is the footer
     </footer>
   )
