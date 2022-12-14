@@ -14,6 +14,7 @@ export default function Home() {
 function Header() {
   return (
     <header className="h-1/6 bg-green-200">
+      <Logo />
       <h1>This is the header</h1>
     </header>
   )
@@ -32,5 +33,11 @@ function Footer() {
     <footer className="bg-yellow-400 h-full">
       This is the footer
     </footer>
+  )
+}
+
+function Logo() {
+  return (
+    <span className="border-2 border-black-400">LOGO HERE</span>
   )
 }
