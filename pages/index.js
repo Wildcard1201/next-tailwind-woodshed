@@ -14,8 +14,10 @@ export default function Home() {
 function Header() {
   return (
     <header className="h-1/6 bg-green-200">
-      <Logo />
-      <h1>This is the header</h1>
+      <div className="flex">
+        <Logo />
+        <NavGroup />
+      </div>
     </header>
   )
 }
@@ -39,5 +41,16 @@ function Footer() {
 function Logo() {
   return (
     <span className="border-2 border-black-400">LOGO HERE</span>
+  )
+}
+
+function NavGroup() {
+  return (
+    <ul className="flex">
+      <li><button>Home</button></li>
+      <li><button>Products</button></li>
+      <li><button>FAQ</button></li>
+      <li><button>Contact</button></li>
+    </ul>
   )
 }
