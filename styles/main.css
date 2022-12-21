@@ -6,7 +6,7 @@
     background-color: pink;
 }
 
-@layer{
+@layer base {
     button{
         background-color: red;
     }
