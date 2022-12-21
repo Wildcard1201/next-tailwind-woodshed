@@ -2,12 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-.custom-button {
+.nav-button {
+    margin-right: 5px;
+    border-radius: 5px;
+    padding: 5px;
     background-color: pink;
+    color: white;
+
 }
 
-@layer base {
+/* @layer base {
     button{
         background-color: red;
     }
-}
+} */

@@ -46,11 +46,13 @@ function Logo() {
 
 function NavGroup() {
   return (
-    <ul className="flex">
-      <li><button className="custom-button">Home</button></li>
-      <li><button>Products</button></li>
-      <li><button>FAQ</button></li>
-      <li><button>Contact</button></li>
-    </ul>
+    <div className="w-full border-black-600 bg-blue">
+      <ul className="flex ">
+        <li><button className="nav-button">Home</button></li>
+        <li><button className="nav-button">Products</button></li>
+        <li><button className="nav-button">FAQ</button></li>
+        <li><button className="nav-button">Contact</button></li>
+      </ul>
+    </div>
   )
 }
