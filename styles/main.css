@@ -5,3 +5,9 @@
 .custom-button {
     background-color: pink;
 }
+
+@layer{
+    button{
+        background-color: red;
+    }
+}
