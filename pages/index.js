@@ -40,7 +40,7 @@ function Footer() {
 
 function Logo() {
   return (
-    <span className="border-2 border-black-400">LOGO HERE</span>
+    <span className="border-2 border-black-400 bg-blue-400 rounded-lg p-2">LOGO HERE</span>
   )
 }
 
