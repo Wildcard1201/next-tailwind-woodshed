@@ -14,7 +14,7 @@ export default function Home() {
 function Header() {
   return (
     <header className="h-1/6 bg-green-200">
-      <div className="flex">
+      <div className="flex basis-[between]">
         <Logo />
         <NavGroup />
       </div>
