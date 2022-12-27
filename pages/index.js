@@ -8,13 +8,12 @@ export default function Home() {
       <Footer />
     </div>
   )
-  
 }
 
 function Header() {
   return (
-    <header className="bg-green-200">
-      <div className="w-full flex justify-between bg-red-100">
+    <header className="bg-green-200 p-1">
+      <div className="w-full flex justify-between items-center bg-red-100 p-1">
         <Logo />
         <NavGroup />
       </div>
@@ -40,14 +39,14 @@ function Footer() {
 
 function Logo() {
   return (
-    <div className="border-2 border-black-400 bg-blue-400 rounded-lg p-1">LOGO HERE</div>
+    <div className="border-2 border-black-400 bg-yellow-900 rounded-xl py-2 px-3 text-slate-50 text-lg">The Woodshed</div>
   )
 }
 
 function NavGroup() {
   return (
     <div className="border-black-600 bg-blue">
-      <ul className="flex ">
+      <ul className="flex">
         <li><button className="nav-button">Home</button></li>
         <li><button className="nav-button">Products (Hover Dropdown)</button></li>
         <li><button className="nav-button">About (Hover Dropdown)</button></li>
