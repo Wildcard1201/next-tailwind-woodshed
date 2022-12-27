@@ -17,8 +17,6 @@ function Header() {
       <div className="w-full flex justify-between bg-red-100">
         <Logo />
         <NavGroup />
-        <div>Button 1</div>
-        <div>Button 2</div>
       </div>
     </header>
   )
@@ -48,7 +46,7 @@ function Logo() {
 
 function NavGroup() {
   return (
-    <div className="w-full border-black-600 bg-blue">
+    <div className="border-black-600 bg-blue">
       <ul className="flex ">
         <li><button className="nav-button">Home</button></li>
         <li><button className="nav-button">Products (Hover Dropdown)</button></li>
