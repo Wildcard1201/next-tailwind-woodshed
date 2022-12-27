@@ -14,9 +14,11 @@ export default function Home() {
 function Header() {
   return (
     <header className="h-1/6 bg-green-200">
-      <div className="flex basis-[between]">
+      <div className="w-full flex justify-between bg-red-100">
         <Logo />
         <NavGroup />
+        <div>Button 1</div>
+        <div>Button 2</div>
       </div>
     </header>
   )
@@ -40,7 +42,7 @@ function Footer() {
 
 function Logo() {
   return (
-    <span className="border-2 border-black-400 bg-blue-400 rounded-lg p-2">LOGO HERE</span>
+    <div className="border-2 border-black-400 bg-blue-400 rounded-lg p-1">LOGO HERE</div>
   )
 }
 
