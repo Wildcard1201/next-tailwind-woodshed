@@ -2,7 +2,7 @@
 
 export default function Home() {
   return (
-    <div className='h-screen border-4 border-red-400 bg-green-400'>
+    <div>
       <Header />
       <Main />
       <Footer />
@@ -13,7 +13,7 @@ export default function Home() {
 
 function Header() {
   return (
-    <header className="h-1/6 bg-green-200">
+    <header className="bg-green-200">
       <div className="w-full flex justify-between bg-red-100">
         <Logo />
         <NavGroup />
@@ -24,7 +24,7 @@ function Header() {
 
 function Main() {
   return (
-    <main className="h-2/3">
+    <main className="bg-green-100">
       This is the main part
     </main>
   )
@@ -32,7 +32,7 @@ function Main() {
 
 function Footer() {
   return (
-    <footer className="bg-yellow-400 h-full">
+    <footer className="bg-yellow-100">
       This is the footer
     </footer>
   )
