@@ -49,9 +49,11 @@ function NavGroup() {
     <div className="w-full border-black-600 bg-blue">
       <ul className="flex ">
         <li><button className="nav-button">Home</button></li>
-        <li><button className="nav-button">Products</button></li>
+        <li><button className="nav-button">Products (Hover Dropdown)</button></li>
+        <li><button className="nav-button">About (Hover Dropdown)</button></li>
         <li><button className="nav-button">FAQ</button></li>
         <li><button className="nav-button">Contact</button></li>
+        <li><button className="nav-button">(Search)</button></li>
       </ul>
     </div>
   )
