@@ -12,6 +12,10 @@
 
 }
 
+.nav-button:hover {
+    background-color: aquamarine;
+}
+
 /* @layer base {
     button{
         background-color: red;
