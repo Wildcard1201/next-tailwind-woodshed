@@ -47,14 +47,6 @@ function NavGroup() {
   return (
     <div className="border-black-600 bg-blue">
       <ul className="flex">
-        <li><button className="nav-button">Home</button></li>
-        <li><button className="nav-button">Products (Hover Dropdown)</button></li>
-        <li><button className="nav-button">About (Hover Dropdown)</button></li>
-        <li><button className="nav-button">FAQ</button></li>
-        <li><button className="nav-button">Contact</button></li>
-        <li><button className="nav-button">(Search)</button></li>
-
-
         <li><NavButton name='Home' value='home'/></li>
         <li><NavButton name='Products' value='products'/></li>
         <li><NavButton name='About (Hover Dropdown)' value='About'/></li>
@@ -68,7 +60,7 @@ function NavGroup() {
 
 function NavButton({ name, value }) {
   return (
-    <button value={value} className='bg-green-300 p-1.5 text-white rounded-md hover:bg-red-400'>
+    <button value={value} className='bg-green-300 p-1.5 ml-1 text-white rounded-md hover:bg-red-400'>
       {name}
     </button>
   )
