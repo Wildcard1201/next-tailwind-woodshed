@@ -53,7 +53,14 @@ function NavGroup() {
         <li><button className="nav-button">FAQ</button></li>
         <li><button className="nav-button">Contact</button></li>
         <li><button className="nav-button">(Search)</button></li>
-        <li><NavButton name='New Button' value='55'/></li>
+
+
+        <li><NavButton name='Home' value='home'/></li>
+        <li><NavButton name='Products' value='products'/></li>
+        <li><NavButton name='About (Hover Dropdown)' value='About'/></li>
+        <li><NavButton name='FAQ' value='faq'/></li>
+        <li><NavButton name='Contact' value='contact'/></li>
+        <li><NavButton name='Search' value='search'/></li>
       </ul>
     </div>
   )
@@ -61,7 +68,7 @@ function NavGroup() {
 
 function NavButton({ name, value }) {
   return (
-    <button value={value} className='bg-green-300 p-1.5 text-white rounded-md'>
+    <button value={value} className='bg-green-300 p-1.5 text-white rounded-md hover:bg-red-400'>
       {name}
     </button>
   )
