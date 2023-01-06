@@ -1,4 +1,4 @@
-
+import HeroComponent from "../components/HeroComponent"
 
 export default function Home() {
   return (
@@ -25,6 +25,7 @@ function Main() {
   return (
     <main className="bg-green-100">
       This is the main part
+      <HeroComponent />
     </main>
   )
 }
