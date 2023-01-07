@@ -1,6 +1,6 @@
 export default function HeroComponent() {
     return (
-        <div>
+        <div className="bg-red-400">
             This is the Hero Component
         </div>
     )
