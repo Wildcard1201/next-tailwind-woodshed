@@ -1,6 +1,6 @@
 export default function HeroComponent() {
     return (
-        <div className="bg-[url('hero-lathe.jpeg')]">
+        <div >
             This is the Hero Component
         </div>
     )
