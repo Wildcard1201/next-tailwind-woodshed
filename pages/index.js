@@ -24,7 +24,6 @@ function Header() {
 function Main() {
   return (
     <main className="bg-green-100">
-      This is the main part
       <HeroComponent />
     </main>
   )
