@@ -39,7 +39,9 @@ function Footer() {
 
 function Logo() {
   return (
-    <div className="border-2 border-black-400 bg-yellow-900 rounded-full py-2 px-3 text-slate-50 text-lg">The Woodshed</div>
+    <div className="border-2 border-black-400 bg-[url('/img/wood-slab.jpeg')] bg-center rounded-full py-2 px-3 text-slate-50 text-2xl">
+      The Woodshed
+    </div>
   )
 }
 
