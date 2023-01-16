@@ -24,9 +24,9 @@ function Header() {
 
 function Main() {
   return (
-    <main className="bg-green-100">
+    <main className="bg-white">
       <HeroComponent />
-      <div className="w-full flex justify-evenly">
+      <div className="w-full flex justify-evenly py-5">
         <Card />
         <Card />
         <Card />
