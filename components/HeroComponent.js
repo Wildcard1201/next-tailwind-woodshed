@@ -1,7 +1,7 @@
 export default function HeroComponent() {
     return (
         <div className="bg-[url('/img/hero-lathe.jpeg')] text-white text-center py-10">
-            <h1 className="text-6xl text-bold ">
+            <h1 className="text-6xl text-bold text-shadow">
                 Get Stuff Made From Wood
             </h1>
             <h3 className="text-xl">
