@@ -1,4 +1,5 @@
 import HeroComponent from "../components/HeroComponent"
+import Card from "../components/Card"
 
 export default function Home() {
   return (
@@ -25,6 +26,11 @@ function Main() {
   return (
     <main className="bg-green-100">
       <HeroComponent />
+      <div className="w-full flex justify-evenly">
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </main>
   )
 }
