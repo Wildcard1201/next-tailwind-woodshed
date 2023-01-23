@@ -1,3 +1,5 @@
+import Button from '../../components/misc/Button'
+
 export default function FooterConsult() {
     return (
         <div className="text-center text-bold text-white text-shadow p-5">
@@ -7,6 +9,7 @@ export default function FooterConsult() {
             <p className="text-xl">
                 Ready to take the next step? Let our professionals help you realize your dreams.
             </p>
+            <Button name='Free Consultation' />
         </div>
     )
 }
