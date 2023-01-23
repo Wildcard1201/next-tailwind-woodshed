@@ -16,7 +16,7 @@ export default function() {
             </div>
 
             <div>
-                <button className="text-white text-bold text-2xl py-2 px-4 rounded-lg hover:border-4 hover:border-green-500 border-4 border-transparent">
+                <button className="text-gray-800 text-bold text-3xl py-2 px-4 rounded-lg hover:border-4 hover:border-green-500 border-4 border-transparent">
                     Take a tour
                 </button>
             </div>
