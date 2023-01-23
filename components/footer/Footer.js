@@ -1,5 +1,6 @@
 import FooterConsult from './FooterConsult'
 import FooterContact from './FooterContact'
+import Copyright from './Copyright'
 
 export default function Footer() {
     return (
@@ -13,6 +14,7 @@ export default function Footer() {
         <FooterContact />
 
         {/* Copyright */}
+        <Copyright />
       </footer>
     )
   }
