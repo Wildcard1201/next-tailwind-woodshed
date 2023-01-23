@@ -2,7 +2,7 @@ import NavButton from './NavButton'
 
 export default function NavGroup() {
     return (
-      <div className="border-black-600 bg-blue">
+      <div>
         <ul className="flex">
           <li><NavButton name='Home' value='home'/></li>
           <li><NavButton name='Products' value='products'/></li>
