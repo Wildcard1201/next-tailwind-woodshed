@@ -1,6 +1,6 @@
 export default function() {
     return (
-        <div className="flex justify-around items-center p-5">
+        <div className="flex justify-around items-center p-16 mx-32">
             <div className="">
                 <p>1440 Oak Hill Road</p>
                 <p>Whiterun, OH 44523</p>
@@ -17,7 +17,7 @@ export default function() {
 
             <div>
                 <button className="text-gray-800 text-bold text-3xl py-2 px-4 rounded-lg hover:border-4 hover:border-green-500 border-4 border-transparent">
-                    Take a tour
+                    Take a tour &#8599;
                 </button>
             </div>
         </div>
