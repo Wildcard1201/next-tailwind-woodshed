@@ -2,7 +2,7 @@ import Button from '../../components/misc/Button'
 
 export default function FooterConsult() {
     return (
-        <div className="text-center text-bold text-white text-shadow p-5">
+        <div className="text-center text-bold text-white text-shadow px-5 py-16">
             <h2 className="text-5xl">
                 WE'D LOVE TO HEAR FROM YOU
             </h2>

@@ -1,17 +1,15 @@
 export default function() {
     return (
-        <div className="flex justify-around items-center p-16 mx-32">
+        <div className="flex justify-around items-center mx-16 my-16 mx-32">
             <div className="">
                 <p>1440 Oak Hill Road</p>
                 <p>Whiterun, OH 44523</p>
-                <br></br>
                 <p>Showroom Hours 8-4 Mon-Fri</p>
 
             </div>
 
             <div className="">
                 <p>1-800-555-2525</p>
-                <br></br>
                 <p>woodrow@thewoodshed.com</p>
             </div>
 
