@@ -1,6 +1,6 @@
 export default function() {
     return (
-        <div className="flex justify-around items-center mx-16 my-16 mx-32">
+        <div className="flex justify-around items-center mx-16 my-16 mx-32 text-shadow-gray text-bold text-xl">
             <div className="">
                 <p>1440 Oak Hill Road</p>
                 <p>Whiterun, OH 44523</p>
